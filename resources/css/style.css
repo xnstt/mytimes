@@ -1,0 +1,73 @@
+/* Universal Styles */
+
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* Header */
+.topbar {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo {
+  display: inline-flex;
+  color: aquamarine;
+}
+
+/* main */
+.column-main{
+  display: flex;
+  justify-content: ;
+
+}
+
+.headline {
+  width: 630px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headlineimage{
+  background-image: url('./resources/images/img-story-main.png');
+}
+
+.report-text{
+
+}
+
+.subheadlines{
+
+}
+
+.story{
+  display: inline-flex;
+  flex-grow: 3;
+  flex-direction: column;
+}
+
+.subheadimage-l{
+
+}
+
+.subheadimage-r{
+
+}
+
+.medium {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.small {
+  width: 240px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
